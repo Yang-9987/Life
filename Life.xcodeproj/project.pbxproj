@@ -11,6 +11,8 @@
 		D6715A0B29156F9D00CB359E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6715A0A29156F9D00CB359E /* ContentView.swift */; };
 		D6715A0D29156F9E00CB359E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6715A0C29156F9E00CB359E /* Assets.xcassets */; };
 		D6715A1129156F9E00CB359E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6715A1029156F9E00CB359E /* Preview Assets.xcassets */; };
+		D6A5BF0E29157AE400C62BA0 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5BF0D29157AE400C62BA0 /* Basic.swift */; };
+		D6A5BF132917F6BA00C62BA0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5BF122917F6BA00C62BA0 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		D6715A0C29156F9E00CB359E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6715A0E29156F9E00CB359E /* Life.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Life.entitlements; sourceTree = "<group>"; };
 		D6715A1029156F9E00CB359E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6A5BF0D29157AE400C62BA0 /* Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
+		D6A5BF122917F6BA00C62BA0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				D6715A0829156F9D00CB359E /* LifeApp.swift */,
-				D6715A0A29156F9D00CB359E /* ContentView.swift */,
+				D6A5BF0F2917F68C00C62BA0 /* View */,
+				D6A5BF0C29157AA300C62BA0 /* Model */,
 				D6715A0C29156F9E00CB359E /* Assets.xcassets */,
 				D6715A0E29156F9E00CB359E /* Life.entitlements */,
 				D6715A0F29156F9E00CB359E /* Preview Content */,
@@ -67,6 +72,23 @@
 				D6715A1029156F9E00CB359E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6A5BF0C29157AA300C62BA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6A5BF0D29157AE400C62BA0 /* Basic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6A5BF0F2917F68C00C62BA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6715A0A29156F9D00CB359E /* ContentView.swift */,
+				D6A5BF122917F6BA00C62BA0 /* HomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6715A0B29156F9D00CB359E /* ContentView.swift in Sources */,
+				D6A5BF132917F6BA00C62BA0 /* HomeView.swift in Sources */,
 				D6715A0929156F9D00CB359E /* LifeApp.swift in Sources */,
+				D6A5BF0E29157AE400C62BA0 /* Basic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
